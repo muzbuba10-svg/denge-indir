@@ -2,13 +2,15 @@
 
 Gelirini ve giderini tek ekranda takip et. Ay sonunda Denge, harcamalarını okuyup sana özel bir değerlendirme sunar.
 
-**Windows için tek dosya uygulama. Kurulum yok, hesap açmak için internet gerekmez.**
+**Windows için tek dosya uygulama.** Kurulum yok, bulut hesabı yok, veriler cihazında kalır.
+
+![Denge ana ekran](screenshot.png)
 
 ---
 
 ## ⬇️ İndir
 
-**[En son sürümü indir →](../../releases/latest)**
+### **[En son sürümü indir](https://github.com/muzbuba10-svg/denge-indir/releases/latest)**
 
 İndirdikten sonra `Denge.exe` dosyasına çift tıkla. Başka bir şey kurmana gerek yok.
 
@@ -24,12 +26,16 @@ Gelirini ve giderini tek ekranda takip et. Ay sonunda Denge, harcamalarını oku
 
 ## Neler yapabilirsin?
 
-- **Hesap:** Yerel kullanıcı hesabı, PBKDF2 ile korunan şifre, otomatik kilit
-- **Ana sayfa:** Ay seçici, gelir/gider/net özeti, kategori dağılımı, son hareketler
-- **Hareketler:** Ekleme, düzenleme, silme, ay ve tür filtresi, arama
-- **Rapor:** 0–100 denge puanı, tasarruf oranı, günlük ortalama, önceki ayla karşılaştırma, öneriler
-- **Yedek:** AES-GCM-256 ile şifreli `.denge` dosyası, geri yükleme, CSV dışa aktarma
-- **Masaüstü:** Kendi penceresi, yerel kaydetme penceresi, tek örnek kilidi
+| Alan | Özellik |
+| --- | --- |
+| Hesap | Yerel kullanıcı hesabı, PBKDF2 ile korunan şifre, otomatik kilit |
+| Ana sayfa | Ay seçici, gelir/gider/net özeti, kategori dağılımı, son hareketler |
+| Hareketler | Ekleme, düzenleme, silme, ay ve tür filtresi, arama |
+| Rapor | 0–100 denge puanı, tasarruf oranı, günlük ortalama, önceki ayla karşılaştırma, öneriler |
+| Yedek | AES-GCM-256 ile şifreli `.denge` dosyası, geri yükleme, CSV dışa aktarma |
+| Masaüstü | Kendi penceresi, yerel kaydetme penceresi, tek örnek kilidi |
+
+Demo hesabı denemek için giriş ekranındaki **Demo ile keşfet** butonunu kullanabilirsin (`demo` / `demo1234`).
 
 ## Gizlilik
 
@@ -40,7 +46,7 @@ Gelirini ve giderini tek ekranda takip et. Ay sonunda Denge, harcamalarını oku
 
 ## Sürüm notları
 
-Sürüm notları için [Releases](../../releases) bölümüne bak.
+Sürüm notları ve eski sürümler için [Releases](https://github.com/muzbuba10-svg/denge-indir/releases) bölümüne bak.
 
 ---
 
