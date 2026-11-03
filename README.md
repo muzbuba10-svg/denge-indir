@@ -1,6 +1,6 @@
 # Denge — Aylık Gelir & Gider
 
-Gelirini ve giderini tek ekranda takip et. Ay sonunda Denge, harcamalarını okuyup sana özel bir değerlendirme sunar.
+Gelirini ve giderini tek ekranda takip et. Bütçe koy, tekrarlayan ödemelerini planla, tasarruf hedefi belirle. Ay sonunda Denge, harcamalarını okuyup sana özel bir değerlendirme sunar.
 
 **Windows için tek dosya uygulama.** Kurulum yok, bulut hesabı yok, veriler cihazında kalır.
 
@@ -31,9 +31,23 @@ Gelirini ve giderini tek ekranda takip et. Ay sonunda Denge, harcamalarını oku
 | Hesap | Yerel kullanıcı hesabı, PBKDF2 ile korunan şifre, otomatik kilit |
 | Ana sayfa | Ay seçici, gelir/gider/net özeti, kategori dağılımı, son hareketler |
 | Hareketler | Ekleme, düzenleme, silme, ay ve tür filtresi, arama |
-| Rapor | 0–100 denge puanı, tasarruf oranı, günlük ortalama, önceki ayla karşılaştırma, öneriler |
-| Yedek | AES-GCM-256 ile şifreli `.denge` dosyası, geri yükleme, CSV dışa aktarma |
+| Bütçe | Kategori başına aylık limit, kalan tutar, aşım uyarısı |
+| Planlama | Tekrarlayan kira/maaş/abonelik şablonları, tasarruf hedefi |
+| Rapor | 0–100 denge puanı, tasarruf oranı, 6 aylık trend, öneriler |
+| Kategoriler | Kendi gider/gelir kategorin, ikon ve renk seçimi |
+| Görünüm | Açık, koyu veya sistem teması |
+| Yedek | AES-GCM-256 ile şifreli `.denge`, otomatik yedek (son 7), CSV dışa aktarma |
 | Masaüstü | Kendi penceresi, yerel kaydetme penceresi, tek örnek kilidi |
+
+### 1.1.0 yenilikleri
+
+- Kategori bütçeleri ve bütçe aşım uyarıları
+- Tekrarlayan hareketler (kira, maaş, abonelik)
+- Tasarruf hedefi ve “bu ayın netini ekle” kısayolu
+- Özel kategoriler (ikon + renk)
+- 6 aylık gelir/gider/net trend grafiği
+- Açık, koyu ve sistem teması
+- Masaüstünde otomatik şifreli yedek (son 7 dosya, Windows DPAPI ile korunan parola)
 
 Demo hesabı denemek için giriş ekranındaki **Demo ile keşfet** butonunu kullanabilirsin (`demo` / `demo1234`).
 
@@ -42,6 +56,7 @@ Demo hesabı denemek için giriş ekranındaki **Demo ile keşfet** butonunu kul
 - Veriler yalnızca bu bilgisayarda, `%LOCALAPPDATA%\Denge` altında tutulur.
 - Bulut hesabı, reklam, analitik veya dışarıya veri gönderimi yoktur.
 - "Akıllı değerlendirme" cihazda çalışan kural tabanlı bir motordur; gerçek bir yapay zekâ servisi kullanmaz.
+- Otomatik yedekler AES-GCM-256 ile şifrelenir; yedek parolası cihaz dışına gönderilmez.
 - Uygulama yatırım veya finansal danışmanlık sunmaz.
 
 ## Sürüm notları
